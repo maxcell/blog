@@ -105,6 +105,7 @@
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+    color: $grey-color;
 }
 
 .contact-list,
@@ -187,11 +188,12 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    font-size: $base-font-size * 1.25;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: $base-font-size * 2.5;
 }
 
 

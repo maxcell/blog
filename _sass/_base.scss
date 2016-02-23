@@ -82,10 +82,12 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: $large-font-weight;
 }
 
-
+p {
+  font-size: $base-font-size * 1.4;
+}
 
 /**
  * Links
@@ -99,8 +101,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: lighten($brand-color, 15%);
     }
 }
 
