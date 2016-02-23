@@ -7,12 +7,12 @@ categories: clarifai dev-evangelism technical-demo ruby gems
 ---
 
 The Clarifai Champion is a program by the awesome NY Startup, Clarifai, in order
-to support the next generation of developer evangelists. These people are the ones
+to support the next generation of **developer evangelists**. These people are the ones
 who go and speak about their companies' products at conferences or hackathons and
 show how to use it for their products and why.
 
 Starting the program all the way back in January, I was really nervous on what it
-meant to be a *developer evangelist*. In my mind it was, "I have to *talk* about
+meant to be a developer evangelist. In my mind it was, "I have to _**talk**_ about
 the APIs that I work with? I don't even really know any language beyond Java and C.
 Are they sure they want me to be a part of this program?"
 
