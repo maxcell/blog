@@ -94,15 +94,15 @@ p {
  * Links
  */
 a {
-    color: $brand-color;
+    color: darken($brand-color, 15%);
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+    // &:visited {
+    //     color:
+    // }
 
     &:hover {
-        color: lighten($brand-color, 15%);
+        color: lighten(darken($brand-color, 15%), 15%);
     }
 }
 
