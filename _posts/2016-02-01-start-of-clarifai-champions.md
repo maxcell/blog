@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Clarifai Champions—Starting off
+title:      Clarifai Champions -- Starting off
 date:       2016-02-21
 summary:    Clarifai? Image Processing? Convolution neural nets? The best thing that has happened to me yet.
 categories: clarifai dev-evangelism
@@ -15,9 +15,9 @@ what they can offer. It is a way to appeal to their users, the developers!
 Starting the program all the way back in January, I was really nervous on what it
 meant to be a part of this. In my mind it was,
 
-_I have to do what? Build a project, contribute to Open Source,
+>I have to do what? Build a project, contribute to Open Source,
 give a talk to group of people,  and a long list of other things? I don't even really know any language
-beyond C and Java (barely). Are they sure they want **me** to be a part of this program?_
+beyond C and Java (barely). Are they sure they want **me** to be a part of this program?
 
 The amazing and inseparable sisters leading the program, Cassidy and Cami Williams,
 reassured me that they did not have any doubts selecting me, or any of the other 26
