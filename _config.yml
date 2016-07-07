@@ -19,3 +19,5 @@ github_username:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_ids: true # Auto-generate ID's for headings
