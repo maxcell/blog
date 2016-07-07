@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Clarifai Champions -- Starting off
+title:      Clarifai Champions - Starting off
 date:       2016-02-21
 summary:    Clarifai? Image Processing? Convolution neural nets? The best thing that has happened to me yet.
 categories: clarifai dev-evangelism
