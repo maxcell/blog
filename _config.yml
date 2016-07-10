@@ -15,9 +15,12 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://maxcell.me" # the base hostname & protocol for your site
 twitter_username:
-github_username:
+github_username: maxcell
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 kramdown:
   auto_ids: true # Auto-generate ID's for headings
+  input: GFM
+  syntax_highlighter: rouge
