@@ -5,6 +5,7 @@ date:       2016-07-09
 summary:    After spending my summer learning how to use Ember, I wanted to share the basics with those who are interested! Here is a brief tutorial that will get you started with installing Ember, generating a project, and creating a few routes & components.
 categories: ember js tutorial
 excerpt: <p>Welcome to our first segment to learning Ember.js (or for the time being, we will refer to as just Ember)! I have been spending the entire summer working on a project using Ember from the bottom up.
+comments: true
 
 ---
 
