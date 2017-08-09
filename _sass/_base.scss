@@ -25,7 +25,19 @@ body {
     font-kerning: normal;
 }
 
-
+/* Horizontal Ruler from https://codepen.io/RedJokingInn*/
+hr {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border: 0;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: #bbb;
+  box-shadow:
+    -15px 0 0 #bbb,
+      15px 0 0 #bbb;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
