@@ -52,5 +52,5 @@ When these three small acts are put into place, you will achieve big wins into m
 
 ---
 
-*Enjoy what you read? Be sure to spread the love by liking and sharing this piece. Want to share thoughts, ask questions, or have any other recommendations? Feel free to reach out to me on Twitter or in the comments below! Thanks for reading!*
+*Enjoy what you read? Be sure to spread the love by liking and sharing this piece. Want to share thoughts, ask questions, or have any other recommendations? Feel free to reach out to me on [Twitter](https://twitter.com/maxcell) or in the comments below! Thanks for reading!*
 
