@@ -12,8 +12,8 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   The personal blog of Maxcell Wilson. A collection of ideas that happen to
   flow through the mind and get written down.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.maxcell.me" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://maxcell.me" # the base hostname & protocol for your site
 twitter_username:
 github_username: maxcell
 
