@@ -6,7 +6,7 @@ permalink: /about/
 
 Howdy!
 
-I am Prince Wilson, a developer evangelist over at a company called [Clarifai](https://www.clarifai.com). I am also a [University of Central Florida](http://www.ucf.edu/) Alumnus who studied Computer Science.
+I am Prince Wilson and I have worked as a developer evangelist over at a company called [Clarifai](https://www.clarifai.com). I am also a [University of Central Florida](http://www.ucf.edu/) Alumnus who studied Computer Science.
 
 It has only been a few years since I have been at the development game but I have
 come a long way. From being the shy kid that had no idea how to program in C,
