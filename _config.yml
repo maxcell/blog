@@ -24,3 +24,12 @@ kramdown:
   auto_ids: true # Auto-generate ID's for headings
   input: GFM
   syntax_highlighter: rouge
+
+assets:
+  digest: true
+  assets:
+    - "*.jpg"
+    - "*.png"
+    - "*.gif"
+  sources:
+    - assets/img

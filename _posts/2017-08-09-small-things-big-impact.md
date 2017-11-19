@@ -16,7 +16,7 @@ You can do so much with as little as a smile. You and the person receiving the s
 
 A lot of people will say they can't "just" smile. It isn't easy; smiling uses muscles in your face and just like any muscle you have to exercise it. A technique that has helped me is just thinking about things that I really enjoy and just passively smile without having to direct it at someone. How do you think Kimmy Schmidt does it?!
 
-![Kimmy Schmidt smiling as she is walking the city streets](/assets/img/kimmy-schmidt-smile.gif)
+<img src='{{ site.baseurl }}/assets/img/kimmy-schmidt-smile.gif' asset='@magick:2x' alt='Kimmy Schmidt smiling as she is walking the city streets'>
 
 # 2. Ask them their name and say it back
 > "Remember that a person’s name is to that person the sweetest and most important sound in any language."
@@ -31,7 +31,7 @@ Think of this like going to your favorite coffee shop or restaurant where the se
 
 Next time you meet anyone, ask them their name and say it when you leave. Remember they are a human who wants to be recognized just like you. You can literally make someone's day by just simply saying their name. In the memorable words of Walter White
 
-![Walter White saying "Say my name"](/assets/img/walter-white-say-my-name.gif)
+<img src='{{ site.baseurl }}/assets/img/walter-white-say-my-name.gif' asset='@magick:2x' alt='Walter White saying "Say my name"'>
 
 # 3. Listen
 > "Most people do not listen with the intent to understand; they listen with the intent to reply."
