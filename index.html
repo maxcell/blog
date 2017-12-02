@@ -1,24 +1,77 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Maxcell Wilson</title>
+    <meta name="description" content="Maxcell Prince Wilson, Corgi Fanatic who builds and secures software." />
 
-<div class="home">
+    <!-- Twitter Data -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Maxcell Prince Wilson" />
+    <meta name="twitter:description" content="Maxcell Prince Wilson, Corgi Fanatic who builds and secures software." />
+    <meta name="twitter:creator" content="@maxcell" />
+    <meta name="twitter:image" content="https://maxcell.me/photo.png" />
 
-  <h1 class="page-heading">Posts</h1>
+    <!-- Open Graph Data -->
+    <meta property="og:title" content="Maxcell Prince Wilson" />
+    <meta property="og:url" content="https://maxcell.me" />
+    <meta property="og:image" content="https://maxcell.me/photo.png" />
+    <meta property="og:description" content="Maxcell Prince Wilson, Corgi Fanatic who builds and secures software." />
+    <meta property="og:site_name" content="Maxcell Wilson's personal website." />
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> • {% include read_time.html %}
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+    <!-- Favicon/Theme -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-        {{ post.excerpt | truncatewords: 50 }}
-      </li>
-    {% endfor %}
-  </ul>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:500|Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Maxcell Prince Wilson</h1>
+      </header>
+      <main>
+        <section id="social">
+          <a title="Find me on GitHub" href="https://github.com/maxcell">GitHub</a>
+          <a title="Connect with me on LinkedIn" href="https://linkedin.com/in/maxcell">LinkedIn</a>
+          <a title="Look at my resume" href="http://goo.gl/qyJC1V">Resume</a>
+          <a title="Follow me on Twitter" href="https://twitter.com/maxcell">Twitter</a>
+          <a title="Send me a note" href="mailto:maxcell.wilson@gmail.com">Email</a>
+        </section>
+        <section>
+          <p>
+            Howdy! I'm Maxcell Prince Wilson, but you can call me <strong>Prince</strong>.
+            I am a person who cares about making better communities one step at a time.
+            Whether it is through giving talks at meetups or conferences,
+            or building and securing technology to make people's lives better.
+          </p>
+          <p>
+            Some of my previous experience includes being a Developer Evangelist
+            over at <a href="https://clarifai.com">Clarifai</a>. I have also been
+            a Security Engineer intern at <a href="https://www.statefarm.com">State Farm Insurance</a>.
+            I graduated with a degree in Computer Science with
+            a focus in security over at the <a href="http://www.ucf.edu">University of Central Florida</a>.
+            In school, I was the President of <a href="http://techknights.org">Tech Knights</a> and helped organize
+            <a href="http://knighthacks.org">Knight Hacks</a> 2016.
+          </p>
+          <p>
+            In my spare time, I enjoy exploring New York City. Also, I like to give back to
+            <a href="https://opensourcefriday.com">Open Source</a>. But most of all, I enjoy Corgis.
+          </p>
+        </section>
+      </main>
+    </article>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-</div>
+      ga('create', 'UA-82244410-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

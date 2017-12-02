@@ -177,23 +177,50 @@
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
+}
 
-    > li {
-        margin-bottom: $spacing-unit;
+.category-title {
+  margin: 1em 0 0.5em 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.post-item {
+  margin-bottom: 0.2em;
+  display: block;
+
+  a {
+    color: darken($brand-color, 15%);
+    font-weight: bold;
+
+    &:hover {
+      color: $brand-color;
     }
+  }
+
+  .article-title {
+    display: inline-block;
+    width: 85%;
+  }
+
+  .date-label {
+    float: right;
+  }
 }
 
 .post-meta {
-    font-size: $small-font-size;
     color: $grey-color;
-    font-size: $base-font-size * 1.25;
+    font-size: $base-font-size * 1.15;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 1px;
 }
 
 .post-link {
     display: block;
-    font-size: $base-font-size * 2.5;
+    font-size: $base-font-size * 1.25;
 }
 
 
