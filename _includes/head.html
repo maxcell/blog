@@ -3,9 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if page.image %}
-    <meta property="og:image" content="{{ site.baseurl }}/{{ page.image }}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.image }}">
   {% else %}
-    <meta property="og:image" content="{{ site.baseurl}}/photo.png">
+   <meta property="og:image" content="{{ site.url }}/photo.png">
   {% endif %}
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>

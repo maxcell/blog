@@ -2,7 +2,7 @@
 layout: post
 title: Day 1 - Inverse Captcha
 date: 2017-12-01
-image: /blog/assets/christmas.png
+image: christmas.png
 ---
 
 Howdy there! Welcome to my first writeup for solutions to Advent of Code. If you don't know what that is, [Advent Of Code](http://adventofcode.com) is an annual coding event started by [Eric Watsl](https://twitter.com/ericwastl) where every day in December leading up to Christmas has a new challenge. The idea of the Advent of Code is to encourage people to have some fun. Some people use this to learn new programming languages, some use it to grow in their current language, others compete with their friends in private leaderboards. Whatever the case may be, [sign up and let's work together](http://adventofcode.com/2017/auth/login)!
@@ -19,7 +19,7 @@ Here are the examples we were given:
 
 So let's think about this for a second. We know we start from the beginning and we don't just stop at the last digit of our number. We have to continue *around and back* to the first digit. You could think of it as a dog chasing their tail! As it said in the problem, we describe things that connect from head to tail as being "circular". So if we put each of the digits into their own box and then drew arrows connecting it, we would have one last arrow from the last digit back to our first.
 
-<img src='{{ site.baseurl}}/assets/img/process.png' asset="@magick:2x" alt="Diagram showing each step to the process. Arrows connecting consecutive digits and checks indicating success in the first and third check and xs for failure in second and four (final) step">
+<img src='{{ site.baseurl }}/assets/img/process.png' asset="@magick:2x" alt="Diagram showing each step to the process. Arrows connecting consecutive digits and checks indicating success in the first and third check and xs for failure in second and four (final) step">
 
 While we are doing that, we are going to be adding them together to a sum which I just happened to call `total` because of the fact that Python already has a function called `sum()`. Also so you know, `data` represents the input line still as a string so when you see doing `int(data)`, this is me converting it to an integer. First, I considered iterating around as such:
 
