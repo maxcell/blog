@@ -2,6 +2,7 @@
 layout: post
 title: Day 1 - Inverse Captcha
 date: 2017-12-01
+image: /blog/assets/christmas.png
 ---
 
 Howdy there! Welcome to my first writeup for solutions to Advent of Code. If you don't know what that is, [Advent Of Code](http://adventofcode.com) is an annual coding event started by [Eric Watsl](https://twitter.com/ericwastl) where every day in December leading up to Christmas has a new challenge. The idea of the Advent of Code is to encourage people to have some fun. Some people use this to learn new programming languages, some use it to grow in their current language, others compete with their friends in private leaderboards. Whatever the case may be, [sign up and let's work together](http://adventofcode.com/2017/auth/login)!
