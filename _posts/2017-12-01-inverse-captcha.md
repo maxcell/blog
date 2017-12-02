@@ -76,4 +76,4 @@ def sum_of_mid(data):
   return total
 ```
 
-And there you have it! Solutions to both problems! If you found this helpful or you want to share your own solution, reach out to me on [Twitter](https://twitter.com/maxcell)! I'd love to hear it. If you happen to notice a bug in any of code snippets or a typo/mispelling, feel free to head over to my GitHub and you can open a PR onto [my blog](https://github.com/maxcell/blog) and I'll review it. Good luck with the rest of the Advent of Code!
+And there you have it! Solutions to both problems! If you found this helpful or you want to share your own solution, reach out to me on [Twitter](https://twitter.com/maxcell)! I'd love to hear it. If you happen to notice a bug in any of code snippets or a typo/mispelling, feel free to head over to my GitHub and you can open a PR on this [post](https://github.com/maxcell/blog/blob/master/{{page.path | replace:'.html','.md'}}) and I'll review it. Good luck with the rest of the Advent of Code!
