@@ -5,7 +5,7 @@ date: 2017-12-01
 image: christmas.png
 ---
 
-Howdy there! Welcome to my first writeup for solutions to Advent of Code. If you don't know what that is, [Advent Of Code](http://adventofcode.com) is an annual coding event started by [Eric Watsl](https://twitter.com/ericwastl) where every day in December leading up to Christmas has a new challenge. The idea of the Advent of Code is to encourage people to have some fun. Some people use this to learn new programming languages, some use it to grow in their current language, others compete with their friends in private leaderboards. Whatever the case may be, [sign up and let's work together](http://adventofcode.com/2017/auth/login)!
+Howdy there! Welcome to my first writeup for solutions to Advent of Code. If you don't know what that is, [Advent Of Code](http://adventofcode.com) is an annual coding event started by [Eric Wastl](https://twitter.com/ericwastl) where every day in December leading up to Christmas has a new challenge. The idea of the Advent of Code is to encourage people to have some fun. Some people use this to learn new programming languages, some use it to grow in their current language, others compete with their friends in private leaderboards. Whatever the case may be, [sign up and let's work together](http://adventofcode.com/2017/auth/login)!
 
 Today, we are going to talk about my solutions to the problems from [Day 1 - Inverse Captcha](https://adventofcode.com/2017/day/1). If you haven't read it, I highly encourage you do! The TL;DR (Too Long; Didn't Read) of it is that one of Santa's elves needs your help making the printer work by sending us into it and solving a puzzle so fast it will think we aren't human, a [captcha](https://en.wikipedia.org/wiki/CAPTCHA).
 
