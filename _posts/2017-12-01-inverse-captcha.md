@@ -19,8 +19,6 @@ Here are the examples we were given:
 
 So let's think about this for a second. We know we start from the beginning and we don't just stop at the last digit of our number. We have to continue *around and back* to the first digit. You could think of it as a dog chasing their tail! As it said in the problem, we describe things that connect from head to tail as being "circular". So if we put each of the digits into their own box and then drew arrows connecting it, we would have one last arrow from the last digit back to our first.
 
-<img src='{{ site.baseurl }}/assets/img/process.png' asset="@magick:2x" alt="Diagram showing each step to the process. Arrows connecting consecutive digits and checks indicating success in the first and third check and xs for failure in second and four (final) step">
-
 While we are doing that, we are going to be adding them together to a sum which I just happened to call `total` because of the fact that Python already has a function called `sum()`. Also so you know, `data` represents the input line still as a string so when you see doing `int(data)`, this is me converting it to an integer. First, I considered iterating around as such:
 
 ```python
@@ -45,6 +43,8 @@ def sum_of_cons(data):
 ```
 
 However, there is still a missing piece to this! We said we have to go around to the front and check if the last digit and first digit match up. Otherwise, when we hit the final iteration, Python will throw an error and say we have hit an Array Out of Bounds exception.
+
+<img src='{{ site.baseurl }}/assets/img/process.png' asset="@magick:2x" alt="Diagram showing each step to the process. Arrows connecting consecutive digits and checks indicating success in the first and third check and xs for failure in second and four (final) step">
 
 There are probably a few ways you could come up with a solution for this. But here is a neat little piece of information that may help you in your programming journey! Let's say we had this set of numbers (`1122`) repeating cforever so you'd have `112211221122...`. Well we know we repeat again after our length of our current string which happens to be `4`. So when we hit the fifth index, we have managed to find the first index of our original string. This would be true if we did the same thing with the 9th index too. So this means any multiple of our string length `+ 1` will be the first digit. To remove any multiple, we could use the `%` or modulus operator. Let's says we had the number `8` (the ninth index) and we were to modulus it by `4`  (the length of our string). It would give us back the **remainder** of when we took out all of the possible multiples of 4 we could have that would leave the result as a whole number. If that still is a bit hard to understand, `%` looks a lot like the `/` and that's because it instead of telling you how many multiple something can go into another number, it will tell us the remainder. These are two peas in a pod!
 
