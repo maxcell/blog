@@ -16,7 +16,7 @@ url: "https://maxcell.me" # the base hostname & protocol for your site
 twitter_username:
 github_username: maxcell
 
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown
