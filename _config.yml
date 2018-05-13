@@ -20,9 +20,8 @@ permalink: /blog/:year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
 kramdown:
-  auto_ids: true # Auto-generate ID's for headings
+  # auto_ids: true # Auto-generate ID's for headings
   input: GFM
   syntax_highlighter: rouge
 

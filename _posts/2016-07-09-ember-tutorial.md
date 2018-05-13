@@ -28,7 +28,7 @@ So, before we continue, there are a few pre-requisite pieces of software we are 
 
 You are going to need to have two package managers installed: [Node Package Manager (or better known as npm)](https://nodejs.org/en/download/) and [Bower](https://bower.io/#install-bower) (in that order). [NodeJS](https://nodejs.org/en/download/) makes life a lot less hectic to install npm if you do not understand how to use a Terminal. Once installed, you get [npm](https://www.npmjs.com/) alongside it. Now, you will be able to actually go into a Terminal window and download [Bower](https://bower.io/#install-bower) through a small command like so:
 
-```bash
+```shell_session
 $ npm install -g bower
 ```
 
@@ -39,9 +39,9 @@ Now that we have the tools, time for us to do the magic installation of Ember!
 ## Installation
 The installation is a small command like installing Bower was, but instead it looks something like this:
 
-```bash
-npm install -g ember-cli
-npm install -g phantomjs
+```shell_session
+$ npm install -g ember-cli
+$ npm install -g phantomjs
 ```
 
 Now, you might be wondering, "Prince, you said we were learning Ember! What the heck is `ember-cli`?" Well, I will tell you inquisitive reader! Ember is a front-end framework that exists, while [ember-cli](https://ember-cli.com/) is a command line utility that makes writing Ember apps quicker as it generates the necessary files for you through different commands. So rather than having to build each file out from hand, we have `ember-cli` to ease out that process. We are still going to be writing Ember code no matter what, this just helps predefine a project structure that you will see with all Ember apps. Check out what [Discourse](https://github.com/discourse/discourse/tree/master/app/assets/javascripts/discourse) used to look like before it made some changes into its Rails code. This is just one of the many platforms that utilizes Ember.
@@ -57,7 +57,7 @@ Whenever we want to start a new Ember project, we will open up a Terminal window
 
 (Name inspired by [Kevin Lewis](https://twitter.com/_phzn))
 
-```bash
+```shell_session
 $ ember new trevor
 ```
 
@@ -65,7 +65,7 @@ There is no real significance to the name `trevor`. This app will just be our pl
 
 We will see our project build and several things being created & installed through npm:
 
-```bash
+```shell_session
 $ ember new trevor
 installing app
   create .bowerrc
@@ -85,7 +85,7 @@ This may or may not take a bit depending on your system so just be slightly pati
 
 Once it is all complete, you will see it now change from installing to:
 
-```bash
+```shell_session
 Installed packages for tooling via npm.
 Installed browser packages via Bower.
 ```
@@ -96,7 +96,7 @@ Ta-da! We made it through! *Wasn't that painless?*
 
 Let's change into our new project and talk a bit about what has happened and what we are looking at.
 
-```bash
+```shell_session
 $ cd trevor
 ```
 
@@ -104,7 +104,7 @@ Once inside of the project, we actually can go ahead and start up a server and h
 
 To run an Ember Server all you have to do is:
 
-```bash
+```shell_session
 $ ember server
 ```
 
@@ -117,7 +117,7 @@ And then it will begin our local server. When you head over to [localhost:4200/]
 
 When looking inside of that folder, we can see these:
 
-```bash
+```shell_session
 ├── app.js
 ├── components
 ├── controllers
@@ -140,7 +140,7 @@ So let's generate our first feature, a route!
 ## Routes
 Routes are our little pathways throughout our application. You all use them daily but you might not realize what they are. So let's start off with generating three, just to see what I am talking about.
 
-```bash
+```shell_session
 $ ember generate route application
 installing route
   create app/routes/application.js
